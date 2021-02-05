@@ -1,8 +1,6 @@
 # skipping docs to skip on .pylintrc
 
 from chairs.material import Material
-
-
 class Espaldar:
     """class that allows to create Espaldares"""
     def __init__(self, material: Material, color: str):
