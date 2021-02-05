@@ -1,5 +1,4 @@
 # skipping docs to skip on .pylintrc
-import pandas as pd
 
 from chairs.material import Material
 
@@ -15,4 +14,3 @@ class Espaldar:
 
     def __repr__(self):
         return f'Espaldar of material {self.material} and color {self.color}'
-
