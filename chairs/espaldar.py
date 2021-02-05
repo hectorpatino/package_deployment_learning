@@ -1,6 +1,6 @@
 # skipping docs to skip on .pylintrc
 from chairs.material import Material
-
+import pandas as pd
 
 class Espaldar:
     """class that allows to create Espaldares"""
