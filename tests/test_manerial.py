@@ -1,7 +1,7 @@
 import pytest
 
-from chairs.espaldar import Espaldar
-from chairs.material import Material
+from chairs import Espaldar
+from chairs import Material
 
 
 def test_material_init():

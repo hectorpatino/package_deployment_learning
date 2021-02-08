@@ -1,0 +1,2 @@
+pydocstyle chairs/. --convention=google
+# para correr pydocstyle, el archivo de configuracion es .pydocstyle

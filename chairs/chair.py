@@ -1,12 +1,10 @@
-"""Implementation of Chair Class."""
 from typing import List
 
-from chairs import Espaldar
-from chairs import Material
+from .espaldar import Espaldar
+from .material import Material
 
 
 class Chair:
-    """Class that allows to create Chairs."""
     def __init__(self, espaldar: Espaldar, material: Material, patas: List[str]) -> None:
         """Constructor for chair.
 
