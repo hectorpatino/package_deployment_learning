@@ -3,7 +3,7 @@
 
 class Material:
     """Class that creates the material of a component of the chair."""
-    def __init__(self, nombre: str):
+    def __init__(self, nombre: str) -> None:
         """Constructor of Material Class.
 
         Args:
@@ -16,7 +16,7 @@ class Material:
             raise TypeError('nombre must be a string')
         self.nombre = nombre
 
-    def __str__(self):
+    def __str__(self) -> str:
         """String representation of Material.
 
         Returns:
@@ -24,7 +24,7 @@ class Material:
         """
         return self.nombre
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         """Repr of Material.
 
         Returns:
