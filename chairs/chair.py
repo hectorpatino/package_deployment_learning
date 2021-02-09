@@ -5,7 +5,8 @@ from .material import Material
 
 
 class Chair:
-    def __init__(self, espaldar: Espaldar, material: Material, patas: List[str]) -> None:
+    def __init__(self, espaldar: Espaldar, material: Material,
+                 patas: List[str]) -> None:
         """Constructor for chair.
 
         Args:

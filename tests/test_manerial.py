@@ -21,5 +21,3 @@ def test_espaldar_init():
     assert espaldar.material.nombre == material.nombre
     assert str(espaldar) == 'wood - red'
     assert repr(espaldar) == 'Espaldar of material wood and color red'
-
-

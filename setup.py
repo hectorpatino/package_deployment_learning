@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 setup(name="rote_chairs",  # Nombre
       version="0.0.1",  # Versión de desarrollo
       description="Paquete de prueba",  # Descripción del funcionamiento
@@ -14,5 +15,5 @@ setup(name="rote_chairs",  # Nombre
               "Development Status :: 3 - Alpha",
               "Topic :: Utilities",
               "License :: OSI Approved :: GNU General Public License (GPL)",
-          ],
+      ],
       )

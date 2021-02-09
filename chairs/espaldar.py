@@ -8,7 +8,8 @@ from chairs.material import Material
 class Espaldar:
     """class that allows to create Espaldares."""
 
-    def __init__(self, material: Material, color: Optional[str] ='Black') -> None:
+    def __init__(self, material: Material,
+                 color: Optional[str] = 'Black') -> None:
         """Constructor of the Espaldar Class.
 
         Args:

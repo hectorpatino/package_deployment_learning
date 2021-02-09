@@ -3,6 +3,7 @@
 
 class Material:
     """Class that creates the material of a component of the chair."""
+
     def __init__(self, nombre: str) -> None:
         """Constructor of Material Class.
 

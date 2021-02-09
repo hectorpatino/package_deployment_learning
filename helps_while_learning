@@ -1,2 +1,14 @@
 pydocstyle chairs/. --convention=google
 # para correr pydocstyle, el archivo de configuracion es .pydocstyle
+
+requirements:GitHub
+Install_REQUIRES: Pypi # en el archivo de configuracion
+
+pytest --cov=chairs tests
+saber la cantidad de código que tengo testeado
+
+pytest --cov=chairs tests --cov-report=html
+para el codigo html
+
+para pre-commit despues de crear el yaml se ejecuta pre-commit install
+y luego pre-commit run --all-files
