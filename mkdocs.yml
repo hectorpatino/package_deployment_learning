@@ -1,0 +1,18 @@
+site_name: My Package
+site_description: "Some description."
+
+theme:
+  name: "readthedocs"
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - "Start": index.md
+  - "API": api.md
+  - "Espaldar": espaldar.md
