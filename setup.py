@@ -1,7 +1,11 @@
 from setuptools import setup
 
 
-setup(name="rote_chairs",  # Nombre
+# with open("README.md", "r") as fh:
+#     long_description
+
+
+setup(name="rote_chairs",  # Nombreen pipy
       version="0.0.1",  # Versión de desarrollo
       description="Paquete de prueba",  # Descripción del funcionamiento
       author="Hector Patiño",  # Nombre del autor
@@ -11,9 +15,14 @@ setup(name="rote_chairs",  # Nombre
       packages=['chairs'],
       install_requires=['pandas'],
       test_suite='tests',
+      keywords='separted spaces keywords',
+      # long_description=long_description,
+      # long_description_content_type="text/markdown",
       classifiers=[
-              "Development Status :: 3 - Alpha",
-              "Topic :: Utilities",
-              "License :: OSI Approved :: GNU General Public License (GPL)",
+          "Programming Language :: Python :: 3",
+          "Operating System :: OS Independent",
+          "Development Status :: 3 - Alpha",
+          "Topic :: Utilities",
+          "License :: OSI Approved :: GNU General Public License (GPL)",
       ],
       )

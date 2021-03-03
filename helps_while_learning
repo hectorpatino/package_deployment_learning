@@ -1,6 +1,10 @@
 pydocstyle chairs/. --convention=google
 # para correr pydocstyle, el archivo de configuracion es .pydocstyle
 
+---Documentacion
+mkdocs build
+mkdocs server
+
 requirements:GitHub
 Install_REQUIRES: Pypi # en el archivo de configuracion
 
@@ -12,3 +16,8 @@ para el codigo html
 
 para pre-commit despues de crear el yaml se ejecuta pre-commit install
 y luego pre-commit run --all-files
+
+
+pasos
+1. setup.py
+2. install isort, flake8, mkdocs, mkdocstrings, mypy,
