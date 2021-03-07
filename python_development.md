@@ -216,6 +216,13 @@ pytest --cov package_name test_folder --cov-report=html
 ```
 Then open ```htmlcov/index.html```
 
+## Codecov
+
+To generate the reports of codecov I followed this steps:
+* Get the token of Codecov repository.
+* Add the secret token to GitHub SECRETS
+* Copy/paste the ``workflow.yml`` of [this repository](https://github.com/codecov/codecov-action)
+
 
 # Packaging
 
