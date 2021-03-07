@@ -6,7 +6,7 @@ from setuptools import setup
 
 
 setup(name="rote_chairs",  # Nombreen pipy
-      version="0.0.1",  # Versión de desarrollo
+      version="0.0.2",  # Versión de desarrollo
       description="Paquete de prueba",  # Descripción del funcionamiento
       author="Hector Patiño",  # Nombre del autor
       author_email='hectorpatino24@gmail.com',  # Email del autor
